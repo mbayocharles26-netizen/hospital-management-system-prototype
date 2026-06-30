@@ -2,7 +2,7 @@
 
 ## Course / Group Information
 
-**Course Name and Code:** Add course name and code here  
+**Course Name and Code:** EWA408510 – E-Commerce and Web Application 
 **Group:** Group #3  
 **Group Members:**
 
