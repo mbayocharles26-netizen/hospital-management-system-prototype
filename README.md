@@ -1,111 +1,172 @@
 # Hospital Management System Prototype
 
-**Cours Name :** Group #3
-**Group Members:** 22396/2023  
-**Figma Link:** https://www.figma.com/make/bYbRYaAJlkYP4qmR9i2HGM/Hospital-management-system?fullscreen=1&t=eMSovWDaSGtUA7Z8-1&code-node-id=0-9
+## Course / Group Information
 
-## 1. Final Project Choice
+**Course Name and Code:** Add course name and code here  
+**Group:** Group #3  
+**Group Members:**
 
-Our group selected the **Hospital Management System** as the final prototype idea. The project focuses on improving patient appointment booking, doctor scheduling, and access to medical records through a simple digital platform.
+| Name | Registration Number |
+|---|---|
+| Francis Charles Mbayo | 22396/2023 |
+| Thomas Yorwartie | 22067/2023 |
+| Edward Cole | 25260/2024 |
 
-## 2. Problem Statement
+## Selected Application / System
 
-Many hospitals still depend on manual patient records, paper-based appointment books, and in-person queue management. This often causes long waiting times, misplaced information, scheduling conflicts, and poor communication between patients, doctors, and hospital staff.
+**Hospital Management System**
 
-The target users for this system are patients, doctors, hospital staff, and administrators. Patients need a faster way to book appointments and access records. Doctors need organized schedules. Hospital staff and administrators need tools for coordinating services and reducing operational delays.
+## Figma Project Link
 
-This system matters because it improves efficiency, accessibility, and patient experience. By digitizing appointment booking and patient record access, hospitals can reduce waiting time, improve staff coordination, and make healthcare services easier to manage.
+[Open Figma Prototype](https://hospitalmanagement.figma.site)
 
-## 3. User Persona
+> Ensure the Figma/project link permissions are set to **Anyone with the link can view** before submission.
 
-| Field        | Details                                                                             |
-| ------------ | ----------------------------------------------------------------------------------- |
-| Name         | Jeanette Uwimana                                                                    |
-| Age          | 32                                                                                  |
-| Occupation   | Teacher                                                                             |
-| Goals        | Book appointments quickly, find available doctors, access medical records easily    |
-| Frustrations | Long queues, difficulty knowing doctor availability, repeated paperwork             |
-| Needs        | Simple mobile-friendly booking flow, clear confirmation, secure profile and records |
+## Project Overview
 
-## 4. User Flow
+This project is a responsive **Hospital Management System prototype** created for a UI/UX assignment. It demonstrates how a hospital can digitize patient access, hospital service booking, appointment confirmation, and medical record viewing using a clean blue, green, and white healthcare interface.
+
+The current prototype focuses on one live patient profile:
+
+- **Patient:** Francis Charles Mbayo
+- **Age:** 20
+- **Email:** mbayocharles26@gmail.com
+- **Patient ID:** RW-2026-420
+
+The prototype does **not** include stored doctor records. Instead, it uses a hospital services flow where the patient selects a service, books a time, receives confirmation, and views records.
+
+## Problem Statement
+
+Many hospitals still rely on manual patient files, physical appointment books, and in-person queue management. This can cause long waiting times, lost or duplicated records, unclear service access, and repeated paperwork for patients.
+
+The target users are **patients, hospital staff, and administrators**. Patients need a faster way to book hospital services and access records. Hospital staff need organized patient information and clearer appointment details. Administrators need a structured overview of services, appointments, and patient records.
+
+This system matters because it improves healthcare efficiency, accessibility, communication, and record accuracy. A digital flow reduces waiting time, keeps patient information organized, and supports a more user-friendly hospital experience.
+
+## User Persona
+
+| Field | Details |
+|---|---|
+| Name | Francis Charles Mbayo |
+| Age | 20 |
+| Patient ID | RW-2026-420 |
+| Goals | Book hospital services quickly, view medical records, receive appointment confirmation, and manage profile access |
+| Frustrations | Long queues, slow record access, unclear service availability, and repeated paperwork |
+| Needs | Mobile-friendly booking flow, clear confirmations, secure records, and accessible navigation |
+
+
+### Doctor Persona
+
+| Field | Details |
+|---|---|
+| Name | Dr. Dabanica Payne |
+| Specialty | General Medicine |
+| Doctor ID | DOC-2026-0201 |
+| License No. | KGL-MED-2026-0201 |
+| Hospital | Hospital Kigali |
+| Experience | 6 years |
+| Goals | Manage appointments, view assigned patient information, update availability, and support patient care |
+| Frustrations | Disorganized schedules, delayed patient information, manual appointment tracking, and poor coordination |
+| Needs | Clear appointment dashboard, secure access to patient records, simple scheduling tools, and reliable notifications |
+
+### Admin Persona
+
+| Field | Details |
+|---|---|
+| Name | Francis Charles Mbayo |
+| Role | System Administrator |
+| Admin ID | ADM-2026-001 |
+| Organization | Hospital Kigali |
+| Goals | Manage hospital services, monitor appointments, organize patient records, and keep the system updated |
+| Frustrations | Scattered records, manual reporting, unclear appointment status, and difficulty tracking hospital activity |
+| Needs | Centralized dashboard, organized patient data, appointment monitoring tools, secure access, and clear system controls |
+
+## User Flow Explanation
 
 ```text
-Login/Register → Dashboard → Select Doctor → Book Appointment → Confirmation → Profile/Records
+Login/Register → Dashboard → Services → Appointment Booking → Confirmation → Profile/Records
 ```
 
-### Flow Explanation
+### Flow Description
 
-1. The user logs in or registers.
-2. The user arrives at the dashboard and views available services.
-3. The user selects a doctor from the doctor list.
-4. The user chooses an appointment date and time.
-5. The system confirms the appointment.
-6. The user can view profile details and medical records.
+1. The patient logs in or creates an account.
+2. The dashboard gives an overview of available actions.
+3. The patient selects a hospital service.
+4. The patient chooses an appointment time.
+5. The appointment confirmation screen confirms the booking.
+6. The patient can view profile information and medical records.
 
-## 5. Wireframes
-
-Low-fidelity wireframes should be placed in `/wireframes`.
-
-Required wireframe screens:
-
-- Login/Register
-- Dashboard
-- Doctor List / Appointment Booking
-- Patient Profile / Records
-
-## 6. High-Fidelity UI Design
-
-High-fidelity designs should be placed in `/high-fidelity-designs`.
-
-Required polished screens:
-
-- Login
-- Dashboard
-- Doctor List
-- Appointment Booking
-- Appointment Confirmation
-- Patient Profile
-
-The visual style uses hospital theme colors: blue, green, and white. The UI should include consistent typography, icons, spacing, navigation, and button styles.
-
-## 7. Interactive Prototype
-
-Prototype files, exports, or links should be placed in `/prototype`.
-
-Prototype navigation:
+Additional screens included in the React prototype:
 
 ```text
-Login button → Dashboard
-Book appointment → Doctor List
-Doctor card → Appointment Booking
-Confirm appointment → Confirmation
-View records → Patient Profile
+Dashboard → Alerts
+Dashboard → Settings
 ```
 
-Recommended transitions:
+## Brief Design Explanation
 
-- Fade between main screens
-- Slide transition for forward navigation
-- Clear button hover/pressed states
+The design uses a professional hospital theme with:
 
-## 8. Accessibility
+- **Blue** for trust, professionalism, and primary actions.
+- **Green** for health, success states, and appointment confirmation.
+- **White/light surfaces** for readability and clean medical presentation.
 
-Accessibility requirements:
+The interface is mobile-friendly, with responsive layouts, clear buttons, readable text, and bottom navigation on small screens.
 
-- Use readable font sizes of at least 16px.
-- Maintain high contrast between text and background.
-- Use clear navigation menus and labels.
-- Keep button styles consistent across screens.
-- Ensure mobile-friendly layouts with enough spacing for touch targets.
+## Features Implemented
 
-## 9. Repository Structure
+- Patient login screen
+- Patient registration screen
+- Dashboard overview
+- Hospital services screen
+- Appointment booking with time selection
+- Appointment confirmation
+- Patient profile and records
+- Alerts screen
+- Settings screen
+- Mobile bottom navigation
+- Responsive layout for mobile and desktop
+
+## Accessibility Considerations
+
+The prototype includes:
+
+- Readable text sizes for mobile and desktop.
+- High-contrast text and buttons.
+- Clear navigation labels and consistent icon use.
+- Touch-friendly buttons and bottom navigation.
+- Consistent spacing and simple screen structure.
+- Confirmation feedback for appointment booking.
+
+## Challenges Faced
+
+- Keeping the prototype simple while still covering the required user flow.
+- Making the layout work well on mobile screens.
+- Keeping patient data consistent across all screens.
+- Organizing exported design files and documentation for GitHub submission.
+
+## Repository Structure
 
 ```text
 /
 ├── assets/
 ├── docs/
+│   └── report.md
 ├── high-fidelity-designs/
+│   ├── appointment-booking.svg
+│   ├── appointment-confirmation.svg
+│   ├── booking-screen.png
+│   ├── dashboard-screen.png
+│   ├── dashboard.svg
+│   ├── login-screen.png
+│   ├── login.svg
+│   ├── patient-profile.svg
+│   └── service-list.svg
 ├── prototype/
+│   ├── figma-prototype-link.md
+│   ├── prototype-link.md
+│   ├── user-flow-diagram.png
+│   └── user-flow-diagram.svg
 ├── src/
 │   ├── app/
 │   │   └── App.tsx
@@ -113,5 +174,35 @@ Accessibility requirements:
 │       ├── fonts.css
 │       └── theme.css
 ├── wireframes/
+│   ├── dashboard-wireframe.png
+│   ├── dashboard-wireframe.svg
+│   ├── login-register-wireframe.svg
+│   ├── login-wireframe.png
+│   ├── patient-profile-records-wireframe.svg
+│   └── service-list-booking-wireframe.svg
 └── README.md
 ```
+
+## Instructions for Accessing Project Files
+
+1. Open the Figma link above to view the prototype.
+2. Review low-fidelity wireframes in `/wireframes`.
+3. Review high-fidelity screens in `/high-fidelity-designs`.
+4. Review prototype support files in `/prototype`.
+5. Read the full project report in `/docs/report.md`.
+6. Open `src/app/App.tsx` to review the React prototype implementation.
+
+## How to Run the React Prototype
+
+If running locally in the development environment:
+
+```bash
+pnpm install
+pnpm run build
+```
+
+Or preview through the available Figma Make / React environment.
+
+## Conclusion
+
+The Hospital Management System prototype demonstrates a focused digital healthcare workflow for Francis Charles Mbayo. It supports login, registration, service selection, appointment booking, confirmation, and record viewing. The project is organized for GitHub submission with Markdown documentation, exported design files, prototype support files, and a professional README.
