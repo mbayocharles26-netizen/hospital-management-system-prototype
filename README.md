@@ -30,7 +30,6 @@ The current prototype focuses on one live patient profile:
 
 - **Patient:** Francis Charles Mbayo
 - **Age:** 20
-- **Email:** mbayocharles26@gmail.com
 - **Patient ID:** RW-2026-420
 
 The prototype does **not** include stored doctor records. Instead, it uses a hospital services flow where the patient selects a service, books a time, receives confirmation, and views records.
